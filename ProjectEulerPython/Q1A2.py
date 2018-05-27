@@ -10,3 +10,4 @@ by_both = by3 | by5
 print(sum(by_both))
 print(time.time()-start)
 
+
