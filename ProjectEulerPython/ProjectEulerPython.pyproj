@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>aa38ef97-7aa2-448f-8b0f-1b9a3838c295</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ProjectEulerPython.py</StartupFile>
+    <StartupFile>Q1A1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ProjectEulerPython.py" />
+    <Compile Include="Q1A2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Q1A1.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
